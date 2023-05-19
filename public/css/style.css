@@ -1,0 +1,86 @@
+.fondo {
+  
+  background-image: url(./img/el_ahorcado_by_gumballluar-d9tihnz.png);
+}
+
+h1 {
+  text-align: center;
+}
+
+#palabra {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#intentos {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#mensaje {
+  margin-bottom: 20px;
+  color: red;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: rgb(95, 94, 94);
+}
+
+button {
+  font-size: 1.5em;
+  margin: auto;
+  background-color: #4CAF50;
+  color: white;
+  border: auto;
+  border-radius: 10px;
+  padding: auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+ 
+#container {
+  box-shadow: 5px 5px 15px gray inset;
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid rgb(0, 40, 0);
+  border-radius: 10px;
+  border-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contenedor-2{
+  background-color: white;
+  max-width: 800px;
+  margin:0 auto;
+  padding: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+
